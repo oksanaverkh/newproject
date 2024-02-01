@@ -1,0 +1,1599 @@
+INFO 2024-01-11 22:14:28,999 autoreload 15116 14660 Watching for file changes with StatReloader
+INFO 2024-01-11 22:14:47,259 autoreload 15116 14660 D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO 2024-01-11 22:14:47,884 autoreload 13076 11848 Watching for file changes with StatReloader
+INFO 2024-01-11 22:14:56,512 autoreload 13744 13840 Watching for file changes with StatReloader
+INFO 2024-01-11 22:16:08,368 basehttp 13744 24728 "GET /random_number/ HTTP/1.1" 200 2
+INFO 2024-01-11 22:16:13,079 views 13744 24728 Index page accessed
+INFO 2024-01-11 22:16:13,081 basehttp 13744 24728 "GET / HTTP/1.1" 200 13
+INFO 2024-01-11 22:17:25,432 autoreload 13744 13840 D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload - 2024-01-11 22:17:26,166: autoreload 24204 24628 Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload - 2024-01-11 22:19:33,508: autoreload 24204 24628 D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload - 2024-01-11 22:19:34,338: autoreload 17092 7976 Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload - 2024-01-11 22:20:06,177: autoreload 17092 7976 D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-11 22:20:06,991 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-11 22:22:34,013 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-11 22:22:34,745 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-11 22:22:40,508 : index @ 0011: Index page accessed
+INFO    :             django.server] - 2024-01-11 22:22:40,509 : log_message @ 0212: "GET / HTTP/1.1" 200 13
+INFO    :         lesson1_app.views] - 2024-01-11 22:22:46,503 : random_number @ 0039: Random number: 58
+INFO    :             django.server] - 2024-01-11 22:22:46,504 : log_message @ 0212: "GET /random_number/ HTTP/1.1" 200 2
+INFO    :         lesson1_app.views] - 2024-01-11 22:22:53,696 : dice @ 0032: Dice side: 5
+INFO    :             django.server] - 2024-01-11 22:22:53,699 : log_message @ 0212: "GET /dice/ HTTP/1.1" 200 1
+INFO    :             django.server] - 2024-01-11 22:23:00,295 : log_message @ 0212: "GET /heads_and_tails HTTP/1.1" 301 0
+INFO    :         lesson1_app.views] - 2024-01-11 22:23:00,303 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:23:00,304 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :   django.utils.autoreload] - 2024-01-11 22:27:11,237 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-11 22:27:12,976 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:19,385 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:19,386 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:21,097 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:21,098 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:23,086 : heads_and_tails @ 0026: Coin side: Орел
+INFO    :             django.server] - 2024-01-11 22:27:23,088 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :   django.utils.autoreload] - 2024-01-11 22:27:38,886 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-11 22:27:40,206 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:40,462 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:40,463 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:42,198 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:42,199 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:44,334 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:44,336 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:46,172 : heads_and_tails @ 0026: Coin side: Решка
+INFO    :             django.server] - 2024-01-11 22:27:46,173 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :         lesson1_app.views] - 2024-01-11 22:27:47,935 : heads_and_tails @ 0026: Coin side: Орел
+INFO    :             django.server] - 2024-01-11 22:27:47,937 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :   django.utils.autoreload] - 2024-01-15 21:12:48,973 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:13:50,382 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+ERROR   : django.security.DisallowedHost] - 2024-01-15 21:13:56,193 : response_for_exception @ 0124: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING :            django.request] - 2024-01-15 21:13:56,332 : log_response @ 0241: Bad Request: /
+WARNING :             django.server] - 2024-01-15 21:13:56,333 : log_message @ 0212: "GET / HTTP/1.1" 400 72217
+ERROR   : django.security.DisallowedHost] - 2024-01-15 21:13:56,493 : response_for_exception @ 0124: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING :            django.request] - 2024-01-15 21:13:56,531 : log_response @ 0241: Bad Request: /favicon.ico
+WARNING :             django.server] - 2024-01-15 21:13:56,532 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 400 71916
+INFO    :         lesson1_app.views] - 2024-01-15 21:14:17,411 : index @ 0011: Index page accessed
+INFO    :             django.server] - 2024-01-15 21:14:17,412 : log_message @ 0212: "GET / HTTP/1.1" 200 13
+WARNING :            django.request] - 2024-01-15 21:14:17,547 : log_response @ 0241: Not Found: /favicon.ico
+WARNING :             django.server] - 2024-01-15 21:14:17,547 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 2810
+INFO    :         lesson1_app.views] - 2024-01-15 21:14:26,505 : dice @ 0032: Dice side: 5
+INFO    :             django.server] - 2024-01-15 21:14:26,507 : log_message @ 0212: "GET /dice/ HTTP/1.1" 200 1
+INFO    :   django.utils.autoreload] - 2024-01-15 21:17:21,350 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:17:21,927 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:19:07,337 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:19:07,882 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:27:54,783 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:28:04,694 : heads_and_tails @ 0030: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:28:05,096 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :   django.utils.autoreload] - 2024-01-15 21:28:36,103 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:28:37,019 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:28:52,454 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:28:53,069 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:29:22,155 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:29:22,946 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:29:24,232 : heads_and_tails @ 0030: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:29:24,327 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :         lesson1_app.views] - 2024-01-15 21:29:32,110 : heads_and_tails @ 0030: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:29:32,287 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :         lesson1_app.views] - 2024-01-15 21:29:42,734 : heads_and_tails @ 0030: Coin side: Решка
+INFO    :             django.server] - 2024-01-15 21:29:42,913 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :   django.utils.autoreload] - 2024-01-15 21:31:05,874 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:31:06,430 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:31:55,040 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:31:55,717 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:05,639 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:06,163 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:22,242 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:22,802 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:32,578 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:32:33,382 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:38:43,387 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:38:44,120 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:39:33,570 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:39:34,218 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:40:30,352 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:41:38,614 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:41:44,699 : heads_and_tails @ 0027: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:41:45,108 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :   django.utils.autoreload] - 2024-01-15 21:44:45,764 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:44:46,313 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:49:19,504 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:49:20,117 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:49:28,390 : heads_and_tails @ 0027: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:49:28,811 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 8
+INFO    :   django.utils.autoreload] - 2024-01-15 21:50:26,667 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:50:27,238 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:50:30,192 : heads_and_tails @ 0027: Coin side: Решка
+INFO    :             django.server] - 2024-01-15 21:50:30,379 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 10
+INFO    :   django.utils.autoreload] - 2024-01-15 21:51:40,310 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:51:40,865 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:51:44,066 : heads_and_tails @ 0027: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:51:44,233 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 462
+INFO    :   django.utils.autoreload] - 2024-01-15 21:52:15,684 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:52:16,249 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:52:19,373 : heads_and_tails @ 0027: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:52:19,563 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 463
+INFO    :         lesson1_app.views] - 2024-01-15 21:52:21,989 : heads_and_tails @ 0027: Coin side: Решка
+INFO    :             django.server] - 2024-01-15 21:52:22,082 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 465
+INFO    :   django.utils.autoreload] - 2024-01-15 21:53:51,129 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:53:51,750 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:54:01,815 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:54:02,736 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-15 21:54:03,462 : heads_and_tails @ 0027: Coin side: Орел
+INFO    :             django.server] - 2024-01-15 21:54:03,877 : log_message @ 0212: "GET /heads_and_tails/ HTTP/1.1" 200 461
+INFO    :   django.utils.autoreload] - 2024-01-15 21:54:55,184 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:54:55,787 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 21:57:24,428 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-15 21:57:25,083 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-15 22:33:39,920 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+WARNING :            django.request] - 2024-01-15 22:33:48,808 : log_response @ 0241: Not Found: /authorss
+WARNING :             django.server] - 2024-01-15 22:33:48,810 : log_message @ 0212: "GET /authorss HTTP/1.1" 404 3139
+INFO    :             django.server] - 2024-01-15 22:33:52,825 : log_message @ 0212: "GET /authors HTTP/1.1" 301 0
+INFO    :             django.server] - 2024-01-15 22:33:52,839 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 0
+INFO    :   django.utils.autoreload] - 2024-01-18 21:16:11,396 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+WARNING :            django.request] - 2024-01-18 21:16:17,900 : log_response @ 0241: Not Found: /lecture3/author/5/
+WARNING :             django.server] - 2024-01-18 21:16:17,902 : log_message @ 0212: "GET /lecture3/author/5/ HTTP/1.1" 404 3336
+INFO    :         lesson1_app.views] - 2024-01-18 21:16:21,358 : index @ 0067: Index page accessed
+INFO    :             django.server] - 2024-01-18 21:16:21,368 : log_message @ 0212: "GET / HTTP/1.1" 200 193
+INFO    :         lesson1_app.views] - 2024-01-18 21:16:29,429 : about @ 0074: About page accessed
+INFO    :             django.server] - 2024-01-18 21:16:29,431 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 162
+INFO    :   django.utils.autoreload] - 2024-01-18 21:26:03,768 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:26:04,423 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:29:19,777 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:29:20,788 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:29:56,150 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:29:56,726 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:35:46,072 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:35:46,740 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:36:23,679 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:36:24,221 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:44:24,259 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:44:49,119 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:01,184 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:01,363 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:01,460 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:01,544 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:01,652 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :             django.server] - 2024-01-18 21:45:01,758 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 394
+INFO    :   django.utils.autoreload] - 2024-01-18 21:45:54,584 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:45:55,143 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:56,017 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:56,018 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:56,018 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:56,019 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:45:56,019 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:45:56,025 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 394
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:28,425 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:28,426 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:28,426 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:28,427 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:28,428 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:50:28,434 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 398
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:30,811 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:30,812 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:30,812 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:30,813 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:50:30,814 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:50:30,815 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 398
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:46,494 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:46,495 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:46,495 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:46,496 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:46,496 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:51:46,507 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 551
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:59,918 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:59,919 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:59,919 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:59,920 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:51:59,921 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:51:59,927 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 549
+INFO    :   django.utils.autoreload] - 2024-01-18 21:52:32,910 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:52:33,488 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:52:41,819 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:52:41,820 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:52:41,821 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:52:41,821 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:52:41,821 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:52:41,831 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 604
+INFO    :         lesson1_app.views] - 2024-01-18 21:53:08,677 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:53:08,677 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:53:08,678 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:53:08,678 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:53:08,678 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :             django.server] - 2024-01-18 21:53:08,687 : log_message @ 0212: "GET /heads_and_tails/5 HTTP/1.1" 200 567
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:13,763 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:14,621 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:21,582 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:22,491 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,899 : dice @ 0052: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,900 : dice @ 0052: Dice side: 3
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,901 : dice @ 0052: Dice side: 1
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,902 : dice @ 0052: Dice side: 3
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,902 : dice @ 0052: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-01-18 21:54:25,903 : dice @ 0052: Dice side: 4
+INFO    :             django.server] - 2024-01-18 21:54:26,026 : log_message @ 0212: "GET /dice/6 HTTP/1.1" 200 528
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:41,822 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:54:42,521 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 21:55:33,902 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:55:34,512 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,472 : random_number @ 0066: Random number: 67
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,472 : random_number @ 0066: Random number: 69
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,473 : random_number @ 0066: Random number: 56
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,473 : random_number @ 0066: Random number: 71
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,473 : random_number @ 0066: Random number: 40
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,474 : random_number @ 0066: Random number: 22
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:39,474 : random_number @ 0066: Random number: 38
+INFO    :             django.server] - 2024-01-18 21:55:39,483 : log_message @ 0212: "GET /random_number/7 HTTP/1.1" 200 557
+INFO    :   django.utils.autoreload] - 2024-01-18 21:55:48,014 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:55:48,616 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,897 : random_number @ 0066: Random number: 31
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,897 : random_number @ 0066: Random number: 87
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,898 : random_number @ 0066: Random number: 74
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,898 : random_number @ 0066: Random number: 87
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,899 : random_number @ 0066: Random number: 23
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,899 : random_number @ 0066: Random number: 2
+INFO    :         lesson1_app.views] - 2024-01-18 21:55:48,899 : random_number @ 0066: Random number: 9
+INFO    :             django.server] - 2024-01-18 21:55:48,913 : log_message @ 0212: "GET /random_number/7 HTTP/1.1" 200 573
+INFO    :   django.utils.autoreload] - 2024-01-18 21:56:25,451 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:56:26,073 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,366 : random_number @ 0066: Random number: 25
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,367 : random_number @ 0066: Random number: 46
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,368 : random_number @ 0066: Random number: 21
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,368 : random_number @ 0066: Random number: 45
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,369 : random_number @ 0066: Random number: 11
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,370 : random_number @ 0066: Random number: 10
+INFO    :         lesson1_app.views] - 2024-01-18 21:56:27,370 : random_number @ 0066: Random number: 41
+INFO    :             django.server] - 2024-01-18 21:56:27,377 : log_message @ 0212: "GET /random_number/7 HTTP/1.1" 200 694
+INFO    :   django.utils.autoreload] - 2024-01-18 21:57:36,386 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 21:57:37,018 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,553 : random_number @ 0066: Random number: 22
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,553 : random_number @ 0066: Random number: 26
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,554 : random_number @ 0066: Random number: 61
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,554 : random_number @ 0066: Random number: 63
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,555 : random_number @ 0066: Random number: 58
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,555 : random_number @ 0066: Random number: 87
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:37,555 : random_number @ 0066: Random number: 7
+INFO    :             django.server] - 2024-01-18 21:57:37,560 : log_message @ 0212: "GET /random_number/7 HTTP/1.1" 200 693
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,573 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,574 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,574 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,575 : heads_and_tails @ 0036: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,575 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-18 21:57:46,575 : heads_and_tails @ 0036: Coin side: Решка
+INFO    :             django.server] - 2024-01-18 21:57:46,577 : log_message @ 0212: "GET /heads_and_tails/6 HTTP/1.1" 200 726
+INFO    :   django.utils.autoreload] - 2024-01-18 22:01:04,438 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:01:05,117 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 22:01:30,104 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:01:30,741 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 22:02:58,394 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:02:59,024 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 22:09:56,998 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:09:57,632 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-18 22:19:15,971 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+WARNING :            django.request] - 2024-01-18 22:19:24,529 : log_response @ 0241: Not Found: /authors/5
+WARNING :             django.server] - 2024-01-18 22:19:24,530 : log_message @ 0212: "GET /authors/5 HTTP/1.1" 404 3415
+WARNING :            django.request] - 2024-01-18 22:19:50,527 : log_response @ 0241: Not Found: /author_posts/5
+WARNING :             django.server] - 2024-01-18 22:19:50,528 : log_message @ 0212: "GET /author_posts/5 HTTP/1.1" 404 3596
+INFO    :   django.utils.autoreload] - 2024-01-18 22:20:41,445 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:20:42,174 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+WARNING :            django.request] - 2024-01-18 22:20:43,448 : log_response @ 0241: Not Found: /author_posts/5
+WARNING :             django.server] - 2024-01-18 22:20:43,450 : log_message @ 0212: "GET /author_posts/5 HTTP/1.1" 404 3435
+ERROR   :            django.request] - 2024-01-18 22:20:51,314 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, 'lesson1_app/author_posts.html', {'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR   :             django.server] - 2024-01-18 22:20:51,324 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 156149
+INFO    :   django.utils.autoreload] - 2024-01-18 22:21:52,725 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:21:53,316 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+ERROR   :            django.request] - 2024-01-18 22:22:10,304 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, 'lesson1_app/author_posts.html', {'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR   :             django.server] - 2024-01-18 22:22:10,312 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 156286
+INFO    :   django.utils.autoreload] - 2024-01-18 22:22:26,174 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:22:26,730 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+ERROR   :            django.request] - 2024-01-18 22:22:27,889 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, 'lesson1_app/author_posts.html', {'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR   :             django.server] - 2024-01-18 22:22:27,897 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 156286
+INFO    :   django.utils.autoreload] - 2024-01-18 22:23:05,689 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:23:06,234 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+ERROR   :            django.request] - 2024-01-18 22:23:06,695 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, template_name='lesson1_app/author_posts.html', context={'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR   :             django.server] - 2024-01-18 22:23:06,703 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 156330
+ERROR   :            django.request] - 2024-01-18 22:23:08,195 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, template_name='lesson1_app/author_posts.html', context={'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR   :             django.server] - 2024-01-18 22:23:08,202 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 156330
+ERROR   :            django.request] - 2024-01-18 22:23:32,762 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, template_name='lesson1_app/author_posts.html', context={'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' not found. 'post_full' is not a valid view function or pattern name.
+ERROR   :             django.server] - 2024-01-18 22:23:32,772 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 235132
+ERROR   :            django.request] - 2024-01-18 22:24:35,374 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, template_name='lesson1_app/author_posts.html', context={'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' not found. 'post_full' is not a valid view function or pattern name.
+ERROR   :             django.server] - 2024-01-18 22:24:35,381 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 235132
+ERROR   :            django.request] - 2024-01-18 22:24:37,094 : log_response @ 0241: Internal Server Error: /author_posts/1
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 126, in author_posts
+    return render(request, template_name='lesson1_app/author_posts.html', context={'author': author, 'posts': posts})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 241, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 325, in render
+    return nodelist.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\defaulttags.py", line 478, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\urls\resolvers.py", line 848, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_full' not found. 'post_full' is not a valid view function or pattern name.
+ERROR   :             django.server] - 2024-01-18 22:24:37,102 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 500 235132
+INFO    :   django.utils.autoreload] - 2024-01-18 22:25:40,061 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:25:40,666 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-18 22:25:41,143 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 3957
+INFO    :   django.utils.autoreload] - 2024-01-18 22:26:26,033 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:26:26,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-18 22:26:27,271 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 4329
+INFO    :             django.server] - 2024-01-18 22:27:42,949 : log_message @ 0212: "GET /post_full/120 HTTP/1.1" 200 411
+INFO    :             django.server] - 2024-01-18 22:29:22,247 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6039
+INFO    :             django.server] - 2024-01-18 22:29:43,889 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6039
+INFO    :   django.utils.autoreload] - 2024-01-18 22:30:38,704 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:30:39,515 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-18 22:30:40,467 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :   django.utils.autoreload] - 2024-01-18 22:31:18,607 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:31:19,417 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-18 22:31:20,794 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:31:22,772 : log_message @ 0212: "GET /post_full/120 HTTP/1.1" 200 411
+INFO    :             django.server] - 2024-01-18 22:31:32,840 : log_message @ 0212: "GET /post_full/1 HTTP/1.1" 200 408
+INFO    :             django.server] - 2024-01-18 22:31:38,307 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:32:02,772 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 411
+INFO    :             django.server] - 2024-01-18 22:32:16,306 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 481
+INFO    :             django.server] - 2024-01-18 22:32:20,223 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 481
+INFO    :             django.server] - 2024-01-18 22:32:21,915 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 481
+INFO    :             django.server] - 2024-01-18 22:32:30,703 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 481
+INFO    :             django.server] - 2024-01-18 22:32:37,685 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:32:40,712 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 481
+INFO    :             django.server] - 2024-01-18 22:33:26,625 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+ERROR   :            django.request] - 2024-01-18 22:33:29,539 : log_response @ 0241: Internal Server Error: /post_full/118
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 132, in post_full
+    return render(request, 'lesson1_app/post_full.html', {'post': post})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '+=1' from 'post.views+=1'
+ERROR   :             django.server] - 2024-01-18 22:33:29,548 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 500 168601
+INFO    :             django.server] - 2024-01-18 22:33:42,325 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 487
+INFO    :   django.utils.autoreload] - 2024-01-18 22:35:19,891 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-18 22:35:20,481 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-18 22:35:27,632 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:35:31,891 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 482
+INFO    :             django.server] - 2024-01-18 22:35:39,328 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:35:41,979 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 482
+INFO    :             django.server] - 2024-01-18 22:35:49,963 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:37:10,597 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:37:13,688 : log_message @ 0212: "GET /post_full/118 HTTP/1.1" 200 535
+INFO    :             django.server] - 2024-01-18 22:37:20,838 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 6339
+INFO    :             django.server] - 2024-01-18 22:37:37,681 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 4239
+INFO    :             django.server] - 2024-01-18 22:37:50,801 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 4809
+INFO    :             django.server] - 2024-01-18 22:37:54,192 : log_message @ 0212: "GET /post_full/110 HTTP/1.1" 200 535
+INFO    :             django.server] - 2024-01-18 22:37:58,317 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 4809
+INFO    :   django.utils.autoreload] - 2024-01-22 20:17:36,476 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-01-22 20:17:42,721 : index @ 0097: Index page accessed
+INFO    :             django.server] - 2024-01-22 20:17:42,764 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+INFO    :   django.utils.autoreload] - 2024-01-22 20:19:37,114 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:19:39,283 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:23:16,105 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:23:17,028 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:24:54,171 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:24:55,329 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:25:17,081 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:25:18,500 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+WARNING :            django.request] - 2024-01-22 20:25:25,789 : log_response @ 0241: Not Found: /games
+WARNING :             django.server] - 2024-01-22 20:25:25,790 : log_message @ 0212: "GET /games HTTP/1.1" 404 3933
+INFO    :             django.server] - 2024-01-22 20:25:31,959 : log_message @ 0212: "GET /game HTTP/1.1" 301 0
+INFO    :             django.server] - 2024-01-22 20:25:32,056 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1018
+ERROR   :            django.request] - 2024-01-22 20:25:41,602 : log_response @ 0241: Internal Server Error: /game/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 144, in choose_game
+    throws_number = form.cleaned_data['throws_number']
+KeyError: 'throws_number'
+ERROR   :             django.server] - 2024-01-22 20:25:41,605 : log_message @ 0212: "POST /game/ HTTP/1.1" 500 70037
+INFO    :   django.utils.autoreload] - 2024-01-22 20:28:07,386 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:28:07,955 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:28:09,896 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1018
+ERROR   :            django.request] - 2024-01-22 20:28:14,820 : log_response @ 0241: Internal Server Error: /game/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 144, in choose_game
+    throws_number = form.cleaned_data['throws_number']
+KeyError: 'throws_number'
+ERROR   :             django.server] - 2024-01-22 20:28:14,823 : log_message @ 0212: "POST /game/ HTTP/1.1" 500 70055
+INFO    :   django.utils.autoreload] - 2024-01-22 20:28:29,273 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:28:29,946 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:28:30,527 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1018
+ERROR   :            django.request] - 2024-01-22 20:28:33,672 : log_response @ 0241: Internal Server Error: /game/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 144, in choose_game
+    throws_number = form.cleaned_data['throws_number']
+KeyError: 'throws_number'
+ERROR   :             django.server] - 2024-01-22 20:28:33,676 : log_message @ 0212: "POST /game/ HTTP/1.1" 500 70048
+INFO    :   django.utils.autoreload] - 2024-01-22 20:30:29,510 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:30:30,662 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:30:35,405 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:30:36,251 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:30:49,816 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:52,654 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:52,655 : heads_and_tails @ 0037: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:52,655 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :             django.server] - 2024-01-22 20:30:52,674 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:54,380 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:54,380 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:54,381 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :             django.server] - 2024-01-22 20:30:54,384 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,144 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,145 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,145 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :             django.server] - 2024-01-22 20:30:55,150 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,578 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,579 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-22 20:30:55,580 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :             django.server] - 2024-01-22 20:30:55,584 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :   django.utils.autoreload] - 2024-01-22 20:31:37,874 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:31:38,501 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:31:38,851 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:41,450 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:41,450 : random_number @ 0067: Random number: 25
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:41,451 : random_number @ 0067: Random number: 57
+INFO    :             django.server] - 2024-01-22 20:31:41,457 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:42,707 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:42,708 : random_number @ 0067: Random number: 60
+INFO    :         lesson1_app.views] - 2024-01-22 20:31:42,709 : random_number @ 0067: Random number: 49
+INFO    :             django.server] - 2024-01-22 20:31:42,716 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1033
+INFO    :   django.utils.autoreload] - 2024-01-22 20:32:13,978 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:32:14,646 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:32:14,969 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:17,721 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:17,722 : random_number @ 0067: Random number: 92
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:17,723 : random_number @ 0067: Random number: 2
+INFO    :             django.server] - 2024-01-22 20:32:17,726 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 493
+INFO    :   django.utils.autoreload] - 2024-01-22 20:32:49,254 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:32:49,903 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:32:50,859 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:54,101 : choose_game @ 0145: Получили game_type='C', throws_number=2.
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:54,103 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-01-22 20:32:54,105 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :             django.server] - 2024-01-22 20:32:54,114 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 518
+INFO    :             django.server] - 2024-01-22 20:33:00,013 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,600 : choose_game @ 0145: Получили game_type='D', throws_number=22.
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,601 : dice @ 0053: Dice side: 4
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,602 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,602 : dice @ 0053: Dice side: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,603 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,603 : dice @ 0053: Dice side: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,604 : dice @ 0053: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,605 : dice @ 0053: Dice side: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,605 : dice @ 0053: Dice side: 4
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,606 : dice @ 0053: Dice side: 3
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,606 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,606 : dice @ 0053: Dice side: 4
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,607 : dice @ 0053: Dice side: 4
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,607 : dice @ 0053: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,608 : dice @ 0053: Dice side: 6
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,609 : dice @ 0053: Dice side: 6
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,610 : dice @ 0053: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,611 : dice @ 0053: Dice side: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,612 : dice @ 0053: Dice side: 6
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,613 : dice @ 0053: Dice side: 6
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,613 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,614 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:08,614 : dice @ 0053: Dice side: 3
+INFO    :             django.server] - 2024-01-22 20:33:08,616 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 1201
+INFO    :             django.server] - 2024-01-22 20:33:12,747 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,402 : choose_game @ 0145: Получили game_type='N', throws_number=50.
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,403 : random_number @ 0067: Random number: 92
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,404 : random_number @ 0067: Random number: 87
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,405 : random_number @ 0067: Random number: 24
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,406 : random_number @ 0067: Random number: 3
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,408 : random_number @ 0067: Random number: 30
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,409 : random_number @ 0067: Random number: 97
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,410 : random_number @ 0067: Random number: 15
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,411 : random_number @ 0067: Random number: 3
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,412 : random_number @ 0067: Random number: 71
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,414 : random_number @ 0067: Random number: 93
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,415 : random_number @ 0067: Random number: 3
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,416 : random_number @ 0067: Random number: 87
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,417 : random_number @ 0067: Random number: 35
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,418 : random_number @ 0067: Random number: 94
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,420 : random_number @ 0067: Random number: 18
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,421 : random_number @ 0067: Random number: 37
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,423 : random_number @ 0067: Random number: 17
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,425 : random_number @ 0067: Random number: 72
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,427 : random_number @ 0067: Random number: 40
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,428 : random_number @ 0067: Random number: 66
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,429 : random_number @ 0067: Random number: 86
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,431 : random_number @ 0067: Random number: 39
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,433 : random_number @ 0067: Random number: 82
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,435 : random_number @ 0067: Random number: 34
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,437 : random_number @ 0067: Random number: 70
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,438 : random_number @ 0067: Random number: 100
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,440 : random_number @ 0067: Random number: 81
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,441 : random_number @ 0067: Random number: 54
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,442 : random_number @ 0067: Random number: 21
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,443 : random_number @ 0067: Random number: 25
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,443 : random_number @ 0067: Random number: 69
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,444 : random_number @ 0067: Random number: 51
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,445 : random_number @ 0067: Random number: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,446 : random_number @ 0067: Random number: 23
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,447 : random_number @ 0067: Random number: 92
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,448 : random_number @ 0067: Random number: 62
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,449 : random_number @ 0067: Random number: 1
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,449 : random_number @ 0067: Random number: 73
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,450 : random_number @ 0067: Random number: 9
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,450 : random_number @ 0067: Random number: 52
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,451 : random_number @ 0067: Random number: 90
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,452 : random_number @ 0067: Random number: 65
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,452 : random_number @ 0067: Random number: 58
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,453 : random_number @ 0067: Random number: 75
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,454 : random_number @ 0067: Random number: 20
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,454 : random_number @ 0067: Random number: 94
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,455 : random_number @ 0067: Random number: 68
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,455 : random_number @ 0067: Random number: 88
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,456 : random_number @ 0067: Random number: 26
+INFO    :         lesson1_app.views] - 2024-01-22 20:33:19,457 : random_number @ 0067: Random number: 76
+INFO    :             django.server] - 2024-01-22 20:33:19,459 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 2450
+INFO    :             django.server] - 2024-01-22 20:33:24,193 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 1014
+INFO    :   django.utils.autoreload] - 2024-01-22 20:36:06,219 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:36:07,026 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:37:20,416 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:37:21,933 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:38:14,975 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:38:16,034 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:39:04,220 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:39:05,084 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:40:52,185 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:40:53,049 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:41:33,576 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:41:34,701 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:42:15,942 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:42:16,660 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:44:06,091 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:44:06,758 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:45:19,336 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:45:19,938 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:45:27,370 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:45:37,465 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 4809
+INFO    :             django.server] - 2024-01-22 20:45:41,255 : log_message @ 0212: "GET /author HTTP/1.1" 301 0
+ERROR   :            django.request] - 2024-01-22 20:45:41,400 : log_response @ 0241: Internal Server Error: /author/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 175, in author_add
+    return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+ERROR   :             django.server] - 2024-01-22 20:45:41,404 : log_message @ 0212: "GET /author/ HTTP/1.1" 500 82866
+INFO    :   django.utils.autoreload] - 2024-01-22 20:46:10,211 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:46:10,986 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:46:12,986 : log_message @ 0212: "GET /author/ HTTP/1.1" 200 1214
+INFO    :             django.server] - 2024-01-22 20:46:38,761 : log_message @ 0212: "GET /author/ HTTP/1.1" 200 1239
+ERROR   :            django.request] - 2024-01-22 20:46:55,148 : log_response @ 0241: Internal Server Error: /author/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 166, in author_add
+    biography = form.cleaned_data['biography']
+KeyError: 'biography'
+ERROR   :             django.server] - 2024-01-22 20:46:55,152 : log_message @ 0212: "POST /author/ HTTP/1.1" 500 70740
+INFO    :   django.utils.autoreload] - 2024-01-22 20:47:55,725 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:47:56,751 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:47:57,938 : log_message @ 0212: "GET /author/ HTTP/1.1" 200 1383
+INFO    :         lesson1_app.views] - 2024-01-22 20:48:20,877 : author_add @ 0168: Получили name='Joe'
+INFO    :             django.server] - 2024-01-22 20:48:21,059 : log_message @ 0212: "POST /author/ HTTP/1.1" 200 1445
+INFO    :   django.utils.autoreload] - 2024-01-22 20:52:08,794 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:52:09,584 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 20:52:10,636 : log_message @ 0212: "GET /author/ HTTP/1.1" 200 1387
+INFO    :         lesson1_app.views] - 2024-01-22 20:52:40,936 : author_add @ 0168: Получили name='Peter'
+INFO    :             django.server] - 2024-01-22 20:52:41,121 : log_message @ 0212: "POST /author/ HTTP/1.1" 200 1470
+INFO    :   django.utils.autoreload] - 2024-01-22 20:53:02,595 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:53:03,264 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:53:15,880 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:53:16,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:55:51,642 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:55:52,239 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:56:41,506 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:56:42,864 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:57:18,225 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:57:18,883 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:57:45,678 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:57:47,235 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:58:16,256 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:58:16,820 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:08,177 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:08,840 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:19,983 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:20,735 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:47,763 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 20:59:48,483 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:03:14,428 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:03:15,074 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:03:36,804 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:03:37,451 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:04:13,156 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:04:13,784 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:05:06,216 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:05:07,031 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:06:59,347 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:06:59,988 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:07:39,660 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:07:40,390 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:07:53,513 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\urls.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:07:55,526 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 21:08:06,547 : log_message @ 0212: "GET /post HTTP/1.1" 301 0
+INFO    :             django.server] - 2024-01-22 21:08:06,592 : log_message @ 0212: "GET /post/ HTTP/1.1" 200 2483
+INFO    :         lesson1_app.views] - 2024-01-22 21:08:30,441 : post_add @ 0187: Получили title='title1'
+ERROR   :            django.request] - 2024-01-22 21:08:30,498 : log_response @ 0241: Internal Server Error: /post/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 188, in post_add
+    post = Post(title=title, content=content, publishing_date=publishing_date, author=author, is_published=is_published)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Post() got unexpected keyword arguments: 'publishing_date'
+ERROR   :             django.server] - 2024-01-22 21:08:30,501 : log_message @ 0212: "POST /post/ HTTP/1.1" 500 78564
+INFO    :   django.utils.autoreload] - 2024-01-22 21:08:59,815 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:09:00,390 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 21:09:03,750 : log_message @ 0212: "GET /post/ HTTP/1.1" 200 2483
+INFO    :         lesson1_app.views] - 2024-01-22 21:09:18,031 : post_add @ 0187: Получили title='title1'
+ERROR   :            django.request] - 2024-01-22 21:09:18,220 : log_response @ 0241: Internal Server Error: /post/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table lesson1_app_post has no column named publishing_date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 189, in post_add
+    post.save()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\query.py", line 1845, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table lesson1_app_post has no column named publishing_date
+ERROR   :             django.server] - 2024-01-22 21:09:18,229 : log_message @ 0212: "POST /post/ HTTP/1.1" 500 152992
+INFO    :   django.utils.autoreload] - 2024-01-22 21:09:50,360 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:09:51,216 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:10:01,297 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:10:01,917 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 21:10:03,152 : log_message @ 0212: "GET /post/ HTTP/1.1" 200 2483
+INFO    :         lesson1_app.views] - 2024-01-22 21:10:19,148 : post_add @ 0187: Получили title='title1'
+ERROR   :            django.request] - 2024-01-22 21:10:19,196 : log_response @ 0241: Internal Server Error: /post/
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table lesson1_app_post has no column named publishing_date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py", line 189, in post_add
+    post.save()
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\query.py", line 1845, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\!Studying\!Studying\23_Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table lesson1_app_post has no column named publishing_date
+ERROR   :             django.server] - 2024-01-22 21:10:19,204 : log_message @ 0212: "POST /post/ HTTP/1.1" 500 153027
+INFO    :   django.utils.autoreload] - 2024-01-22 21:10:47,540 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:10:48,231 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:11:02,405 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:11:03,275 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 21:11:17,517 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\views.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:11:18,196 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-22 21:11:19,106 : log_message @ 0212: "GET /post/ HTTP/1.1" 200 2275
+INFO    :         lesson1_app.views] - 2024-01-22 21:11:30,475 : post_add @ 0187: Получили title='title1'
+INFO    :             django.server] - 2024-01-22 21:11:30,897 : log_message @ 0212: "POST /post/ HTTP/1.1" 200 2319
+INFO    :   django.utils.autoreload] - 2024-01-22 21:13:56,608 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\forms.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-22 21:13:57,332 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-22 23:13:46,578 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:09:46,161 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 21:09:54,166 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:09:54,386 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:10:03,432 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:10:03,517 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 5946
+INFO    :   django.utils.autoreload] - 2024-01-25 21:10:51,801 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:10:52,926 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:11:25,325 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:11:26,429 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:11:47,937 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:11:48,635 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 21:11:53,556 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 7559
+INFO    :             django.server] - 2024-01-25 21:12:08,234 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14272
+INFO    :             django.server] - 2024-01-25 21:12:08,372 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:12:14,394 : log_message @ 0212: "GET /admin/lesson1_app/author/10/change/ HTTP/1.1" 200 12576
+INFO    :             django.server] - 2024-01-25 21:12:14,482 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:12:41,465 : log_message @ 0212: "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+INFO    :             django.server] - 2024-01-25 21:12:46,717 : log_message @ 0212: "POST /admin/lesson1_app/author/10/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:12:46,757 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14523
+INFO    :             django.server] - 2024-01-25 21:12:46,832 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:12:54,923 : log_message @ 0212: "GET /admin/lesson1_app/author/add/ HTTP/1.1" 200 12145
+INFO    :             django.server] - 2024-01-25 21:12:54,994 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:13:22,863 : log_message @ 0212: "POST /admin/lesson1_app/author/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:13:22,935 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14935
+INFO    :             django.server] - 2024-01-25 21:13:23,023 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:17:50,252 : log_message @ 0212: "GET /admin/auth/group/add/ HTTP/1.1" 200 14086
+INFO    :             django.server] - 2024-01-25 21:17:50,319 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:19:27,941 : log_message @ 0212: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:19:27,969 : log_message @ 0212: "GET /admin/auth/group/add/ HTTP/1.1" 200 14374
+INFO    :             django.server] - 2024-01-25 21:19:28,039 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:20:29,245 : log_message @ 0212: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:20:29,276 : log_message @ 0212: "GET /admin/auth/group/add/ HTTP/1.1" 200 14374
+INFO    :             django.server] - 2024-01-25 21:20:29,335 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:20:56,091 : log_message @ 0212: "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:20:56,155 : log_message @ 0212: "GET /admin/auth/group/ HTTP/1.1" 200 11338
+INFO    :             django.server] - 2024-01-25 21:20:56,231 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:20:59,038 : log_message @ 0212: "GET /admin/auth/group/3/change/ HTTP/1.1" 200 14399
+INFO    :             django.server] - 2024-01-25 21:20:59,105 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:21:03,846 : log_message @ 0212: "GET /admin/auth/group/ HTTP/1.1" 200 11129
+INFO    :             django.server] - 2024-01-25 21:21:03,918 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:21:21,739 : log_message @ 0212: "GET /admin/auth/user/add/ HTTP/1.1" 200 12422
+INFO    :             django.server] - 2024-01-25 21:21:21,811 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:21:45,278 : log_message @ 0212: "POST /admin/auth/user/add/ HTTP/1.1" 200 12666
+INFO    :             django.server] - 2024-01-25 21:21:45,339 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:22:01,798 : log_message @ 0212: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:22:01,871 : log_message @ 0212: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25075
+INFO    :             django.server] - 2024-01-25 21:22:01,939 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:22:34,404 : log_message @ 0212: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:22:34,434 : log_message @ 0212: "GET /admin/auth/user/add/ HTTP/1.1" 200 12716
+INFO    :             django.server] - 2024-01-25 21:22:34,517 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:22:56,570 : log_message @ 0212: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:22:56,617 : log_message @ 0212: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 25075
+INFO    :             django.server] - 2024-01-25 21:22:56,679 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:23:06,823 : log_message @ 0212: "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:23:06,874 : log_message @ 0212: "GET /admin/auth/user/add/ HTTP/1.1" 200 12716
+INFO    :             django.server] - 2024-01-25 21:23:06,966 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:23:32,836 : log_message @ 0212: "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:23:32,888 : log_message @ 0212: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 25070
+INFO    :             django.server] - 2024-01-25 21:23:32,948 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:23:43,609 : log_message @ 0212: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:23:43,651 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15267
+INFO    :             django.server] - 2024-01-25 21:23:43,733 : log_message @ 0212: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO    :             django.server] - 2024-01-25 21:23:43,734 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:23:46,117 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15045
+INFO    :             django.server] - 2024-01-25 21:23:46,180 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:24:39,276 : log_message @ 0212: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24785
+INFO    :             django.server] - 2024-01-25 21:24:39,348 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:25:32,764 : log_message @ 0212: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:25:32,804 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15268
+INFO    :             django.server] - 2024-01-25 21:25:32,871 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:25:35,421 : log_message @ 0212: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 24785
+INFO    :             django.server] - 2024-01-25 21:25:35,494 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:26:24,659 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15045
+INFO    :             django.server] - 2024-01-25 21:26:24,744 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:26:35,741 : log_message @ 0212: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 24781
+INFO    :             django.server] - 2024-01-25 21:26:35,821 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:26:52,893 : log_message @ 0212: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:26:52,934 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15267
+INFO    :             django.server] - 2024-01-25 21:26:53,009 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:27:05,485 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 21:27:09,881 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:27:09,938 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:27:20,353 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+INFO    :             django.server] - 2024-01-25 21:27:31,317 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+INFO    :             django.server] - 2024-01-25 21:27:53,027 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+INFO    :             django.server] - 2024-01-25 21:28:23,145 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4628
+INFO    :             django.server] - 2024-01-25 21:28:37,257 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:28:37,285 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11265
+INFO    :             django.server] - 2024-01-25 21:28:41,893 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15045
+INFO    :             django.server] - 2024-01-25 21:28:41,968 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:28:47,740 : log_message @ 0212: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24794
+INFO    :             django.server] - 2024-01-25 21:28:47,804 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:29:09,036 : log_message @ 0212: "GET /admin/auth/user/2/password/ HTTP/1.1" 200 9177
+INFO    :             django.server] - 2024-01-25 21:29:39,837 : log_message @ 0212: "POST /admin/auth/user/2/password/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:29:39,890 : log_message @ 0212: "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24943
+INFO    :             django.server] - 2024-01-25 21:29:39,971 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:14,726 : log_message @ 0212: "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:31:14,785 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15268
+INFO    :             django.server] - 2024-01-25 21:31:14,873 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:16,912 : log_message @ 0212: "GET /admin/auth/user/3/change/ HTTP/1.1" 200 24785
+INFO    :             django.server] - 2024-01-25 21:31:16,981 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:22,543 : log_message @ 0212: "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:31:22,577 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15268
+INFO    :             django.server] - 2024-01-25 21:31:22,649 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:26,428 : log_message @ 0212: "GET /admin/auth/user/4/change/ HTTP/1.1" 200 24817
+INFO    :             django.server] - 2024-01-25 21:31:26,486 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:31,835 : log_message @ 0212: "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:31:31,870 : log_message @ 0212: "GET /admin/auth/user/ HTTP/1.1" 200 15267
+INFO    :             django.server] - 2024-01-25 21:31:31,936 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:31:35,190 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 21:31:38,415 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:31:38,430 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:31:53,901 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:31:53,958 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 6833
+INFO    :             django.server] - 2024-01-25 21:31:57,987 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25428
+INFO    :             django.server] - 2024-01-25 21:32:09,417 : log_message @ 0212: "GET /admin/lesson1_app/post/280/change/ HTTP/1.1" 200 11171
+INFO    :             django.server] - 2024-01-25 21:32:09,484 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:32:18,285 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25428
+INFO    :             django.server] - 2024-01-25 21:32:19,493 : log_message @ 0212: "GET /admin/lesson1_app/post/274/change/ HTTP/1.1" 200 11171
+INFO    :             django.server] - 2024-01-25 21:32:19,558 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:32:22,483 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25428
+INFO    :             django.server] - 2024-01-25 21:32:27,383 : log_message @ 0212: "GET /admin/lesson1_app/post/280/change/ HTTP/1.1" 200 11171
+INFO    :             django.server] - 2024-01-25 21:32:27,456 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:32:30,906 : log_message @ 0212: "GET /admin/auth/group/ HTTP/1.1" 200 8711
+INFO    :             django.server] - 2024-01-25 21:32:37,515 : log_message @ 0212: "GET /admin/auth/group/2/change/ HTTP/1.1" 200 9547
+INFO    :             django.server] - 2024-01-25 21:32:37,588 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:32:43,822 : log_message @ 0212: "GET /admin/auth/group/ HTTP/1.1" 200 8711
+INFO    :             django.server] - 2024-01-25 21:32:54,579 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 21:33:01,850 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:33:01,873 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:33:15,771 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:33:15,862 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 6372
+INFO    :             django.server] - 2024-01-25 21:33:21,962 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25240
+INFO    :             django.server] - 2024-01-25 21:33:23,652 : log_message @ 0212: "GET /admin/lesson1_app/post/280/change/ HTTP/1.1" 200 13391
+INFO    :             django.server] - 2024-01-25 21:33:23,725 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:33:28,240 : log_message @ 0212: "GET /admin/lesson1_app/post/add/ HTTP/1.1" 200 13010
+INFO    :             django.server] - 2024-01-25 21:33:28,315 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:33:47,691 : log_message @ 0212: "POST /admin/lesson1_app/post/add/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:33:47,782 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25522
+INFO    :             django.server] - 2024-01-25 21:33:51,087 : log_message @ 0212: "GET /admin/lesson1_app/post/282/change/ HTTP/1.1" 200 13378
+INFO    :             django.server] - 2024-01-25 21:33:51,171 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:33:55,067 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25240
+INFO    :             django.server] - 2024-01-25 21:33:57,967 : log_message @ 0212: "GET /admin/lesson1_app/post/278/change/ HTTP/1.1" 200 13391
+INFO    :             django.server] - 2024-01-25 21:33:58,039 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:34:12,189 : log_message @ 0212: "POST /admin/lesson1_app/post/278/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:34:12,281 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 25530
+INFO    :             django.server] - 2024-01-25 21:34:26,072 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 21:34:29,518 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:34:29,541 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:34:44,209 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:34:44,238 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 7558
+INFO    :             django.server] - 2024-01-25 21:34:49,582 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14681
+INFO    :             django.server] - 2024-01-25 21:34:49,647 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:34:52,124 : log_message @ 0212: "GET /admin/lesson1_app/author/13/change/ HTTP/1.1" 200 12556
+INFO    :             django.server] - 2024-01-25 21:34:52,191 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:34:59,221 : log_message @ 0212: "POST /admin/lesson1_app/author/13/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:34:59,282 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14936
+INFO    :             django.server] - 2024-01-25 21:34:59,355 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:35:03,955 : log_message @ 0212: "GET /admin/lesson1_app/author/4/change/ HTTP/1.1" 200 12560
+INFO    :             django.server] - 2024-01-25 21:35:04,028 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:35:08,852 : log_message @ 0212: "GET /admin/lesson1_app/author/4/delete/ HTTP/1.1" 200 13241
+INFO    :             django.server] - 2024-01-25 21:35:16,939 : log_message @ 0212: "POST /admin/lesson1_app/author/4/delete/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:35:17,003 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 14472
+INFO    :             django.server] - 2024-01-25 21:35:17,075 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :   django.utils.autoreload] - 2024-01-25 21:39:53,217 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\models.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:39:53,916 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:40:57,419 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:40:59,506 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:41:38,182 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:41:38,994 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:42:05,209 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:42:05,970 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:42:13,883 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:42:14,502 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:43:20,177 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:43:20,944 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 21:43:28,576 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 21:43:33,336 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:43:33,368 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 21:43:40,984 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 21:43:41,021 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11302
+INFO    :             django.server] - 2024-01-25 21:43:46,129 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 18245
+INFO    :             django.server] - 2024-01-25 21:43:46,182 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:43:55,374 : log_message @ 0212: "GET /admin/lesson1_app/author/?q=name HTTP/1.1" 200 17476
+INFO    :             django.server] - 2024-01-25 21:43:55,435 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:44:08,092 : log_message @ 0212: "GET /admin/lesson1_app/author/?q= HTTP/1.1" 200 18716
+INFO    :             django.server] - 2024-01-25 21:44:08,157 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:44:20,905 : log_message @ 0212: "GET /admin/lesson1_app/author/?o=3.1&q= HTTP/1.1" 200 19060
+INFO    :             django.server] - 2024-01-25 21:44:20,963 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:44:31,461 : log_message @ 0212: "GET /admin/lesson1_app/author/?o=-3.1&q= HTTP/1.1" 200 19095
+INFO    :             django.server] - 2024-01-25 21:44:31,528 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:44:50,210 : log_message @ 0212: "GET /admin/lesson1_app/author/?o=-3.1&q= HTTP/1.1" 200 19095
+INFO    :             django.server] - 2024-01-25 21:44:50,252 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:05,205 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:06,422 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:34,604 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:35,268 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:47,395 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:46:48,211 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:47:04,617 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:47:05,472 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:48:16,392 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:48:17,381 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:49:02,698 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:49:03,268 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 21:49:07,072 : log_message @ 0212: "GET /admin/lesson1_app/author/?o=-3.1&q= HTTP/1.1" 200 19095
+INFO    :             django.server] - 2024-01-25 21:49:07,134 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:49:10,253 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 67926
+INFO    :             django.server] - 2024-01-25 21:49:10,316 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:49:31,565 : log_message @ 0212: "GET /admin/lesson1_app/post/?o=2.1.3 HTTP/1.1" 200 71877
+INFO    :             django.server] - 2024-01-25 21:49:31,638 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:49:33,008 : log_message @ 0212: "GET /admin/lesson1_app/post/?o=-3.2.1 HTTP/1.1" 200 71841
+INFO    :             django.server] - 2024-01-25 21:49:33,077 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:49:41,133 : log_message @ 0212: "GET /admin/lesson1_app/post/?q=2&o=-3.2.1 HTTP/1.1" 200 34082
+INFO    :             django.server] - 2024-01-25 21:49:41,198 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:49:56,415 : log_message @ 0212: "GET /admin/lesson1_app/post/?author__id__exact=13&o=-3.2.1&q=2 HTTP/1.1" 200 14662
+INFO    :             django.server] - 2024-01-25 21:49:56,477 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 21:50:00,014 : log_message @ 0212: "GET /admin/lesson1_app/post/?author__id__exact=2&o=-3.2.1&q=2 HTTP/1.1" 200 19322
+INFO    :             django.server] - 2024-01-25 21:50:00,090 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :   django.utils.autoreload] - 2024-01-25 21:53:05,535 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:53:06,694 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:53:35,970 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:53:36,698 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:54:10,399 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:54:12,828 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 21:56:59,690 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 21:57:00,599 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:00:02,510 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:00:04,119 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:00:07,077 : log_message @ 0212: "GET /admin/lesson1_app/post/?author__id__exact=2&o=-3.2.1&q=2 HTTP/1.1" 200 19322
+INFO    :             django.server] - 2024-01-25 22:00:07,133 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:00:09,817 : log_message @ 0212: "GET /admin/lesson1_app/author/ HTTP/1.1" 200 18245
+INFO    :             django.server] - 2024-01-25 22:00:09,885 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:00:13,771 : log_message @ 0212: "GET /admin/lesson1_app/author/11/change/ HTTP/1.1" 200 12695
+INFO    :             django.server] - 2024-01-25 22:00:13,845 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :   django.utils.autoreload] - 2024-01-25 22:01:30,759 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:01:31,329 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:02:31,894 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:02:32,603 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:03:31,627 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:03:32,294 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:04:13,058 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:04:13,829 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:05:12,761 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:05:13,925 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:06:19,141 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\lesson1_app\admin.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:06:20,227 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:06:23,457 : log_message @ 0212: "GET /admin/lesson1_app/author/11/change/ HTTP/1.1" 200 12695
+INFO    :             django.server] - 2024-01-25 22:06:23,507 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:06:25,432 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 68017
+INFO    :             django.server] - 2024-01-25 22:06:25,494 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:06:28,035 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 68017
+INFO    :             django.server] - 2024-01-25 22:06:28,083 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:06:31,618 : log_message @ 0212: "GET /admin/lesson1_app/post/282/change/ HTTP/1.1" 200 14746
+INFO    :             django.server] - 2024-01-25 22:06:31,677 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:06:54,948 : log_message @ 0212: "POST /admin/lesson1_app/post/282/change/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:06:55,030 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 68301
+INFO    :             django.server] - 2024-01-25 22:06:55,094 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:06:58,364 : log_message @ 0212: "GET /admin/lesson1_app/post/282/change/ HTTP/1.1" 200 14746
+INFO    :             django.server] - 2024-01-25 22:06:58,442 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:07:24,523 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 68017
+INFO    :             django.server] - 2024-01-25 22:07:24,587 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:07:52,184 : log_message @ 0212: "POST /admin/lesson1_app/post/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:07:52,266 : log_message @ 0212: "GET /admin/lesson1_app/post/ HTTP/1.1" 200 67963
+INFO    :             django.server] - 2024-01-25 22:07:52,325 : log_message @ 0212: "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO    :             django.server] - 2024-01-25 22:14:41,334 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:14:50,259 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 22:14:54,770 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:14:54,802 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:15:03,597 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:15:03,652 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :   django.utils.autoreload] - 2024-01-25 22:17:33,784 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:17:34,477 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:19:20,252 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:19:23,497 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:20:16,559 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:20:17,179 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-01-25 22:20:57,652 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:21:03,525 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:21:07,706 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 22:21:10,610 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:21:10,644 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:21:17,502 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:21:17,543 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :   django.utils.autoreload] - 2024-01-25 22:23:22,626 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-01-25 22:23:23,185 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:23:26,022 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:23:29,629 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 22:23:32,952 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:23:32,982 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :   django.utils.autoreload] - 2024-01-25 22:23:42,842 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:23:47,008 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:23:47,080 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:23:47,896 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:23:54,822 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:23:54,871 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :   django.utils.autoreload] - 2024-01-25 22:25:35,923 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:25:41,355 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:25:46,837 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 22:25:51,539 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:25:51,579 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:26:01,025 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:26:01,086 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:27:08,395 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :   django.utils.autoreload] - 2024-01-25 22:27:18,330 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :             django.server] - 2024-01-25 22:27:20,563 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :             django.server] - 2024-01-25 22:27:25,527 : log_message @ 0212: "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO    :             django.server] - 2024-01-25 22:27:28,070 : log_message @ 0212: "GET /admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:27:28,108 : log_message @ 0212: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO    :             django.server] - 2024-01-25 22:27:35,535 : log_message @ 0212: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO    :             django.server] - 2024-01-25 22:27:35,572 : log_message @ 0212: "GET /admin/ HTTP/1.1" 200 11368
+INFO    :   django.utils.autoreload] - 2024-02-01 21:14:30,744 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-02-01 21:15:49,785 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:15:49,836 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+WARNING :            django.request] - 2024-02-01 21:15:50,046 : log_response @ 0241: Not Found: /favicon.ico
+WARNING :             django.server] - 2024-02-01 21:15:50,047 : log_message @ 0212: "GET /favicon.ico HTTP/1.1" 404 4395
+INFO    :         lesson1_app.views] - 2024-02-01 21:15:56,606 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:15:56,607 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+INFO    :         lesson1_app.views] - 2024-02-01 21:16:18,278 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:16:18,280 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+INFO    :         lesson1_app.views] - 2024-02-01 21:16:21,413 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:16:21,414 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+INFO    :         lesson1_app.views] - 2024-02-01 21:16:23,147 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:16:23,150 : log_message @ 0212: "GET / HTTP/1.1" 200 457
+INFO    :   django.utils.autoreload] - 2024-02-01 21:18:01,078 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-02-01 21:18:02,258 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :         lesson1_app.views] - 2024-02-01 21:18:04,633 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:18:04,814 : log_message @ 0212: "GET / HTTP/1.1" 200 10684
+INFO    :             django.server] - 2024-02-01 21:18:04,863 : log_message @ 0212: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO    :             django.server] - 2024-02-01 21:18:04,869 : log_message @ 0212: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO    :             django.server] - 2024-02-01 21:18:04,891 : log_message @ 0212: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO    :             django.server] - 2024-02-01 21:18:04,920 : log_message @ 0212: "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO    :             django.server] - 2024-02-01 21:18:15,679 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO    :             django.server] - 2024-02-01 21:18:15,706 : log_message @ 0212: "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO    :             django.server] - 2024-02-01 21:18:20,933 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=VersionsPanel HTTP/1.1" 200 761
+INFO    :             django.server] - 2024-02-01 21:18:28,045 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=SettingsPanel HTTP/1.1" 200 27044
+INFO    :             django.server] - 2024-02-01 21:18:37,041 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=HeadersPanel HTTP/1.1" 200 5347
+INFO    :             django.server] - 2024-02-01 21:18:52,593 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=RequestPanel HTTP/1.1" 200 1903
+INFO    :             django.server] - 2024-02-01 21:19:00,411 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO    :             django.server] - 2024-02-01 21:19:03,935 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=StaticFilesPanel HTTP/1.1" 200 33091
+INFO    :             django.server] - 2024-02-01 21:19:11,155 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=a54190f3f5f744c8a31f5eac4835957f&panel_id=TemplatesPanel HTTP/1.1" 200 6469
+INFO    :             django.server] - 2024-02-01 21:19:19,853 : log_message @ 0212: "GET /__debug__/template_source/?template=lesson1_app/index.html&template_origin=IkQ6XFwhU3R1ZHlpbmdcXCFTdHVkeWluZ1xcMjNfRGphbmdvXFxMZXNzb25zXFxuZXdwcm9qZWN0XFxsZXNzb24xX2FwcFxcdGVtcGxhdGVzXFxsZXNzb24xX2FwcFxcaW5kZXguaHRtbCI:1rVbdU:4mUS98Pl8hXndp6Oi08-8i-MzXJQtKAtNhArTp1AD24 HTTP/1.1" 200 737
+WARNING :            django.request] - 2024-02-01 21:19:36,222 : log_response @ 0241: Not Found: /get_clients_orders/9
+WARNING :             django.server] - 2024-02-01 21:19:36,223 : log_message @ 0212: "GET /get_clients_orders/9 HTTP/1.1" 404 14643
+WARNING :            django.request] - 2024-02-01 21:19:38,111 : log_response @ 0241: Not Found: /games
+WARNING :             django.server] - 2024-02-01 21:19:38,111 : log_message @ 0212: "GET /games HTTP/1.1" 404 14582
+INFO    :             django.server] - 2024-02-01 21:19:47,955 : log_message @ 0212: "GET /game HTTP/1.1" 200 10820
+INFO    :             django.server] - 2024-02-01 21:19:48,031 : log_message @ 0212: "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+INFO    :             django.server] - 2024-02-01 21:19:50,870 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 11255
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,016 : choose_game @ 0145: Получили game_type='C', throws_number=5.
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,017 : heads_and_tails @ 0037: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,018 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,018 : heads_and_tails @ 0037: Coin side: Решка
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,019 : heads_and_tails @ 0037: Coin side: Орел
+INFO    :         lesson1_app.views] - 2024-02-01 21:19:57,019 : heads_and_tails @ 0037: Coin side: Решка
+INFO    :             django.server] - 2024-02-01 21:19:57,045 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 10921
+INFO    :             django.server] - 2024-02-01 21:20:02,949 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 11254
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,121 : choose_game @ 0145: Получили game_type='D', throws_number=5.
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,122 : dice @ 0053: Dice side: 6
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,123 : dice @ 0053: Dice side: 4
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,124 : dice @ 0053: Dice side: 5
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,125 : dice @ 0053: Dice side: 2
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:07,125 : dice @ 0053: Dice side: 3
+INFO    :             django.server] - 2024-02-01 21:20:07,169 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 10823
+INFO    :             django.server] - 2024-02-01 21:20:12,694 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 11254
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,004 : choose_game @ 0145: Получили game_type='N', throws_number=5.
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,005 : random_number @ 0067: Random number: 98
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,006 : random_number @ 0067: Random number: 17
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,007 : random_number @ 0067: Random number: 68
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,007 : random_number @ 0067: Random number: 14
+INFO    :         lesson1_app.views] - 2024-02-01 21:20:19,008 : random_number @ 0067: Random number: 68
+INFO    :             django.server] - 2024-02-01 21:20:19,027 : log_message @ 0212: "POST /game/ HTTP/1.1" 200 10861
+INFO    :             django.server] - 2024-02-01 21:20:25,193 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=HistoryPanel HTTP/1.1" 200 18782
+INFO    :             django.server] - 2024-02-01 21:21:04,130 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO    :             django.server] - 2024-02-01 21:21:16,105 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=RequestPanel HTTP/1.1" 200 2637
+INFO    :             django.server] - 2024-02-01 21:21:21,216 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO    :             django.server] - 2024-02-01 21:21:23,483 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=SignalsPanel HTTP/1.1" 200 2320
+INFO    :             django.server] - 2024-02-01 21:21:27,372 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=49ac023822214d15bb8bc3bfcb1a6486&panel_id=HeadersPanel HTTP/1.1" 200 5585
+INFO    :             django.server] - 2024-02-01 21:22:31,482 : log_message @ 0212: "GET /author_posts/1 HTTP/1.1" 200 15063
+INFO    :             django.server] - 2024-02-01 21:22:32,578 : log_message @ 0212: "GET /authors HTTP/1.1" 200 10829
+INFO    :             django.server] - 2024-02-01 21:22:34,795 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 534
+INFO    :         lesson1_app.views] - 2024-02-01 21:22:59,773 : index @ 0098: Index page accessed
+INFO    :             django.server] - 2024-02-01 21:22:59,802 : log_message @ 0212: "GET / HTTP/1.1" 200 10684
+INFO    :             django.server] - 2024-02-01 21:23:02,695 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=9f3e39c3091c49b7b5abb3b03b887539&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO    :             django.server] - 2024-02-01 21:23:14,227 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=9f3e39c3091c49b7b5abb3b03b887539&panel_id=HistoryPanel HTTP/1.1" 200 25347
+INFO    :             django.server] - 2024-02-01 21:23:23,932 : log_message @ 0212: "GET /authors HTTP/1.1" 200 10829
+INFO    :             django.server] - 2024-02-01 21:23:26,949 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 534
+INFO    :             django.server] - 2024-02-01 21:23:59,635 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=ff8b5c578b1d433bb4a4fe7c27a3d386&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO    :             django.server] - 2024-02-01 21:24:02,202 : log_message @ 0212: "GET /__debug__/render_panel/?store_id=ff8b5c578b1d433bb4a4fe7c27a3d386&panel_id=HistoryPanel HTTP/1.1" 200 28630
+INFO    :             django.server] - 2024-02-01 21:24:14,401 : log_message @ 0212: "GET /__debug__/history_sidebar/?store_id=b415f26eb7b74d7e810320425ea06554&exclude_history=True HTTP/1.1" 200 11325
+INFO    :             django.server] - 2024-02-01 21:24:18,834 : log_message @ 0212: "GET /__debug__/history_sidebar/?store_id=ff8b5c578b1d433bb4a4fe7c27a3d386&exclude_history=True HTTP/1.1" 200 11336
+WARNING :            django.request] - 2024-02-01 21:25:10,659 : log_response @ 0241: Not Found: /get_clients_orders/9
+WARNING :             django.server] - 2024-02-01 21:25:10,660 : log_message @ 0212: "GET /get_clients_orders/9 HTTP/1.1" 404 14642
+INFO    :             django.server] - 2024-02-01 21:25:12,338 : log_message @ 0212: "GET /game/ HTTP/1.1" 200 11254
+INFO    :             django.server] - 2024-02-01 21:25:18,953 : log_message @ 0212: "GET /posts HTTP/1.1" 200 10823
+INFO    :             django.server] - 2024-02-01 21:25:21,161 : log_message @ 0212: "GET /posts/ HTTP/1.1" 200 20174
+INFO    :             django.server] - 2024-02-01 21:25:45,630 : log_message @ 0212: "GET /posts/ HTTP/1.1" 200 20174
+INFO    :             django.server] - 2024-02-01 21:25:50,589 : log_message @ 0212: "GET /posts HTTP/1.1" 200 10823
+INFO    :   django.utils.autoreload] - 2024-02-01 21:30:43,976 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.
+INFO    :   django.utils.autoreload] - 2024-02-01 21:30:45,034 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+INFO    :   django.utils.autoreload] - 2024-02-01 21:31:20,503 : trigger_reload @ 0266: D:\!Studying\!Studying\23_Django\Lessons\newproject\newproject\settings.py changed, reloading.

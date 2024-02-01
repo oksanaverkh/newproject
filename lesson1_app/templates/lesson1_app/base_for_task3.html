@@ -1,0 +1,10 @@
+{% extends 'lesson1_app/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<h1>Result for {{ title }}:</h1>
+    {% for res in result %}
+        <p>{{ res }}</p>
+    {% endfor %}
+{% endblock %}
